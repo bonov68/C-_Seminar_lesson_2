@@ -1,5 +1,13 @@
-﻿double a = 123.1234;
-int b = 4;
-double result = Math.Round(a, 2);
+﻿// вывод модуля числа
+// int a = -4;
+// int result = Math.Abs(a);
+// Console.WriteLine(result);
 
+// нах макс, мин числа
+int a= -4;
+int b = 3; 
+// int result = Math.Max(a, b);
+int result = Math.Min(a, b);
 Console.WriteLine(result);
+
+
