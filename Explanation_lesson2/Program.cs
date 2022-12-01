@@ -49,3 +49,7 @@
 // Console.WriteLine(i);
 // }
 // Console.WriteLine("все");
+
+// случайное число
+int a = new Random().Next(1, 5);
+Console.WriteLine(a);
