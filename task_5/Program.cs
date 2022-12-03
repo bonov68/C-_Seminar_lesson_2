@@ -9,7 +9,7 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 2");
 int b = Convert.ToInt32(Console.ReadLine());
 
-if (a*a==b)
+if (a*a==b || b*b==a)
 {
     Console.WriteLine("да");
 }
